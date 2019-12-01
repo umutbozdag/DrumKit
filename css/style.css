@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+.keys {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 71.5%;
+}
+
+.keys .key {
+    color: white;
+    border: 2px solid white;
+    float: left;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    width: 100px;
+    transition: all 0.5s;
+}
+
+.keys .key p {
+    font-size: 32px;
+}
+
+.keys .key span {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: yellow;
+}
+
+.keys .playing {
+    border: 2px solid yellow;
+    transform: scale(0.9);
+}
